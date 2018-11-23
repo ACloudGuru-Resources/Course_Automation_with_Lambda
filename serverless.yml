@@ -4,18 +4,18 @@ provider:
   name: aws
   runtime: nodejs8.10
   region: us-east-1
-  iamRoleStatements:
-    - Effect: "Allow"
-      Action: "sns:Publish"
-      Resource:
-        - "arn:aws:sns:us-east-1:712800520113:2018-11-11"
+#  iamRoleStatements:
+#    - Effect: "Allow"
+#      Action: "sns:Publish"
+#      Resource:
+#        - "arn:aws:sns:us-east-1:712800520113:2018-11-11"
 
 functions:
   hello-world-function:
     handler: hello-world.handler
-  lambda-to-sns-function:
-    handler: lambda-to-sns.handler
-  sns-to-lambda-function:
-    handler: sns-to-lambda.handler
-    events:
-      - sns: arn:aws:sns:us-east-1:712800520113:2018-11-11
+#  lambda-to-sns-function:
+#    handler: lambda-to-sns.handler
+#  sns-to-lambda-function:
+#    handler: sns-to-lambda.handler
+#    events:
+#      - sns: arn:aws:sns:us-east-1:712800520113:2018-11-11
