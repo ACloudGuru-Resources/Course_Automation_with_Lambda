@@ -1,0 +1,22 @@
+{
+  "name": "automation-with-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spruke/automation-with-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spruke/automation-with-lambda/issues"
+  },
+  "homepage": "https://github.com/spruke/automation-with-lambda#readme",
+  "dependencies": {
+    "serverless": "^1.32.0"
+  }
+}
